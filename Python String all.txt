@@ -1,0 +1,81 @@
+# "hello"  string in python are surrounded by either single quotation marks, or double quotation marks.
+print("Hello")
+print('My Name is Abhishek sah ')
+
+# Assign String to a variable
+a = "Abhishek sah "
+print(a)
+
+# Multiline String
+b = '''lorem  . ,, Hi i am  Abishek sah . i am a student of nami college
+     am studying in bsc computing (hons) .  i am 23 years old i live in Nepal saptary
+      saptakoshi 6 .I am here in kathmandu . '''
+print(b)
+
+c = "Access element using the square bracket "
+print(c[1])
+
+# looping through a string
+for d in "banana":
+
+    print(d)
+
+#     String length
+e = "I am python programmmer"
+print(len(e))
+
+# checking String
+txt = "the best thing in life is fell good fell better"
+print("life" in txt)
+
+
+# Slicing
+f = "Hello ji"
+print(f[2:4])
+
+# Slice from the start
+print(f[:3])
+
+# Slice to the end
+print(f[1:])
+
+# Negative Indexing
+print(f[-2:-4])
+
+# Modify String
+# upper case
+print(txt.upper())
+# Lower case
+print(f.lower())
+# Remove Whitespace
+print(txt.strip())
+
+# Replace string
+print(txt.replace("life", "done"))
+
+# Split String
+g = " Hello world"
+print(g.split(","))
+
+# String concatenation
+
+
+h = "Hello"
+i = "world"
+k = h + " " + i
+print(k)
+
+# Format-String
+age = 23
+name = "Abhishek sah"
+address = "...."
+NameAge =  "My name is abhishek sah and my age is{}"
+print(NameAge.format(age))
+
+# Escape character
+""" \'  \\ \n """
+
+# String Method
+''' capitalize() ,  casefold(),  center(), count(), txt = "hello ji" == print
+  txt.center()---  formate(),  find(),  '''
+
